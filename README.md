@@ -13,22 +13,6 @@ PyPDF2 handles PDF text extraction from both resume and job description files.
 Python 3.11 is the core programming language used throughout the project.
 python-dotenv manages environment variables and API key configuration securely.
 
-Project Structure
-agentic_resume_screening/
-├── app/
-│   ├── agents/
-│   │   ├── resume_extractor.py
-│   │   ├── jd_extractor.py
-│   │   └── candidate_evaluation.py
-│   ├── resources/
-│   ├── ui/
-│   │   └── streamlit.py
-│   ├── main.py
-│   ├── parsepdf.py
-│   └── prompts.py
-├── .env.example
-├── requirements.txt
-└── README.md
 
 Getting Started
 
